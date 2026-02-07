@@ -179,3 +179,57 @@ nav {
     font-size: 15px;
     color: #BF4108;
 }
+
+
+#Third-Section h2 {
+color: #fff;
+text-align: center;
+}
+
+
+.testomonial-card-container{
+    display: grid;
+    /* grid-template-rows: ; */
+    grid-template-columns: auto auto auto;
+    gap: 13px;
+}
+
+
+.testomonial-card{
+    width: 400px ;
+    height: 200px;
+    background-color: #1B1913;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.testomonial-card p{
+    color: #fff;
+}
+#AuthorData{
+    display: flex;
+    /* background-color: red; */
+    height: 60px;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+
+    
+    /* flex-direction: ; */
+}
+#AuthorData img{
+    border-radius: 12px;
+    height: 50px;
+}
+#AuthorData div{
+ line-height: 0.5;
+}
+#AuthorData div :nth-child(1){
+ color: #fff;
+ 
+}
+#AuthorData div :nth-child(2){
+ color: #999896;
+
+}
