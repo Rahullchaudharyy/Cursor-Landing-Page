@@ -160,7 +160,7 @@ nav {
     ;
 
 }
-.Container :last-child img{
+.Container div img{
     height: 640px;
 }
 .Text-Container h2{
