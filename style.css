@@ -233,3 +233,29 @@ text-align: center;
  color: #999896;
 
 }
+
+
+#fourth-Section{
+    margin-top: 130px;
+}
+
+.frontier-Card{
+    padding: 15px;
+    height: 500px;
+    width: 400PX;
+    background-color: #1B1913;
+        border-radius: 4px;
+
+}
+.frontier-Card img {
+    width: 390px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.frontier-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px
+    ;
+}
