@@ -1,0 +1,181 @@
+.carrois-gothic-regular {
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #14120B;
+    font-family: "Carrois Gothic", sans-serif;
+
+
+}
+main{
+    padding-left: 50px;
+    padding-right: 50px;
+    /* margin-left: 20%; */
+    /* margin-right: 20; */
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 42px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 5px;
+    /* position: absolute; */
+    /* background-color: red; */
+    
+}
+
+.Logo-Nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2;
+}
+
+.Options-Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 22px;
+}
+
+.Options-Buttons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.Options-Buttons a:hover {
+    color: #b8b8b8;
+    text-decoration: none;
+}
+
+.Nav-Buttons :first-child {
+    color: #fff;
+    background-color: transparent;
+    border: #fff 1px solid;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 12px;
+}
+
+.Nav-Buttons :last-child {
+    color: #14120B;
+    background-color: #fff;
+    border: #14120B 1px solid;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 12px;
+}
+.Nav-Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+    ;
+}
+
+
+.First-Section{
+   
+     margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 5px;
+
+}
+
+.First-Section img{
+    width: 90vw ;
+    padding: 0%;
+}
+.First-Section h2{
+    color: #fff;
+    padding-top: 12vmin;
+}
+.First-Section button {
+    padding: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 19px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 42px;
+   
+}
+
+.First-Section button img{
+    height: 12px;
+    width: auto;
+    object-fit: contain;
+}
+.card {
+    height: 98px;
+    width: 160px;
+    /* border: #14120B; */
+    border: #201E19 1px solid;
+    background-color: #1B1913;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.card img{
+
+    height: 40px;
+    width: auto;
+    
+}
+
+#Companies-Container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.Second-Section{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.Container{
+    height: 700px;
+    width: 95vw;
+    background-color: #1D1B15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+    ;
+
+}
+.Container :last-child img{
+    height: 640px;
+}
+.Text-Container h2{
+    font-size: 19px;
+}
+.Text-Container :nth-child(2){
+    font-size: 19px;
+    color: #969796;
+}
+.Text-Container :nth-child(1){
+    font-size: 19px;
+    color: #EDECEC;
+}
+
+.Text-Container h3 {
+    font-size: 15px;
+    color: #BF4108;
+}
